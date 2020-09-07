@@ -13,6 +13,17 @@ public class PushFileOne {
 		a=a-b;
 		System.out.println("After Swap a value---->"+ a);
 		System.out.println("After Swap b value---->"+ b);
+		System.out.println("Adding to merge withou conflict");
+		int c=30;
+		int d= 45;
+		int temp=0;
+		temp = c;
+		c=d;
+		d=temp;
+		System.out.println("After Swap a value---->"+ c);
+		System.out.println("After Swap b value---->"+ d);
+				
+		
 	}
 
 }
